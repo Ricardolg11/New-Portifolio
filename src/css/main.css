@@ -300,7 +300,6 @@ header .container nav ul li .btn_active:hover {
   background: #00b7ff;
   border-radius: 10px;
   box-shadow: 2px 3px 8px #e2e8f0;
-  border-left: 10px solid #fffffe;
   justify-content: space-between;
   align-items: center;
 }
