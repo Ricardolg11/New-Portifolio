@@ -213,7 +213,8 @@ header .container nav ul li .btn_active:hover {
   color: #fff;
   border-right: 10px solid #fff;
   margin-bottom: 20px;
-}
+} 
+
 .s-projectos .container .lista-projectos .card .project-description h2 {
   margin-top: 10px;
   width: 100%;
