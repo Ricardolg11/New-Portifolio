@@ -169,7 +169,7 @@ header .container nav ul li .btn_active:hover {
   width: 100%;
   height: 50px;
   box-shadow: 1px 2px 8px #e2e8f0;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,7 +208,7 @@ header .container nav ul li .btn_active:hover {
   max-width: 400px;
   background: #fffffe;
   box-shadow: 1px 2px 8px #e2e8f0;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
   padding: 15px;
   color: #fff;
   border-right: 10px solid #fff;
@@ -220,7 +220,7 @@ header .container nav ul li .btn_active:hover {
   padding: 5px;
   background: #00b7ff;
   box-shadow: 1px 2px 8px #042d78;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
   font-size: 18px;
   margin-bottom: 10px;
   text-align: center;
@@ -254,7 +254,6 @@ header .container nav ul li .btn_active:hover {
 
 @media (max-width: 900px) {
   .s-projectos .container .lista-projectos .card {
-    padding-top: 100px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
