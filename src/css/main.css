@@ -263,6 +263,7 @@ header .container nav ul li .btn_active:hover {
   transform: scale(1.2);
 }
 
+
 @media (max-width: 900px) {
   .s-projectos .container .lista-projectos .card {
     padding-bottom: 50px;
