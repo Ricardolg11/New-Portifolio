@@ -253,6 +253,16 @@ header .container nav ul li .btn_active:hover {
   color: #107bb9;
 }
 
+.zoom-img img{
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.8s;
+ 
+}
+.zoom-img:hover img {
+  transform: scale(1.2);
+}
+
 @media (max-width: 900px) {
   .s-projectos .container .lista-projectos .card {
     padding-bottom: 50px;
