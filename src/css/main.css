@@ -312,7 +312,6 @@ header .container nav ul li .btn_active:hover {
   background: #00b7ff;
   border-radius: 10px;
   box-shadow: 2px 3px 8px #e2e8f0;
-  border-left: 10px solid #fffffe;
   justify-content: space-between;
   align-items: center;
 }
@@ -341,7 +340,6 @@ header .container nav ul li .btn_active:hover {
   background: #00b7ff;
   border-radius: 10px;
   box-shadow: 2px 3px 8px #e2e8f0;
-  border-left: 10px solid #fffffe;
   justify-content: space-between;
   align-items: center;
 }
@@ -600,7 +598,6 @@ footer .texto-bottom p {
   box-shadow: 1px 2px 8px #e2e8f0;
   border-radius: 0px 10px 10px 0px;
   padding: 15px;
-  border-left: 10px solid #fff;
   margin: 15px;
 }
 .card-empresa h2 {
@@ -612,6 +609,7 @@ footer .texto-bottom p {
   box-shadow: 1px 2px 8px #00b7ff;
   border-radius: 0px 10px 10px 0px;
   font-size: 16px;
+  text-align: center;
   margin-bottom: 10px;
 }
 .card-empresa h3 {
