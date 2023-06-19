@@ -596,7 +596,7 @@ footer .texto-bottom p {
   max-width: 350px;
   background: #00b7ff;
   box-shadow: 1px 2px 8px #e2e8f0;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 10px 10px;
   padding: 15px;
   margin: 15px;
 }
