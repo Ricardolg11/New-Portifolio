@@ -264,7 +264,7 @@ header .container nav ul li .btn_active:hover {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1400px) {
   .s-projectos .container .lista-projectos .card {
     padding-bottom: 50px;
     display: flex;
