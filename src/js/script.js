@@ -18,8 +18,6 @@ const swiper = new Swiper(".slide", {
     },
 });
 
-
-
 async function BuscarDate(){
     await fetch("https://api.vercel.com/v9/projects",option)
     .then(response=>  response.json())
