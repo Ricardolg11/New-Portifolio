@@ -82,8 +82,8 @@ header .container nav ul li .btn_active:hover {
 .timeline-content {
   padding: 20px;
   background: #00b7ff;
-  -webkit-box-shadow: 5px 5px 10px #a7a6a6, -5px -5px 10px #a7a6a6;
-          box-shadow: 5px 5px 10px #a7a6a6, -5px -5px 10px #a7a6a6;
+  -webkit-box-shadow: 5px 5px 10px #c5c3c3, -5px -5px 10px #c5c3c3;
+          box-shadow: 5px 5px 10px #c5c3c3, -5px -5px 10px #c5c3c3;
   border-radius: 5px;
   color: white;
   padding: 1.75rem;
