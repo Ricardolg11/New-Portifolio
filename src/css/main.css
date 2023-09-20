@@ -5,6 +5,19 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 header {
@@ -422,6 +435,7 @@ header .container nav ul li .btn_active:hover {
 
 }
 body {
+  background: #e2e8f0;
   overflow-x: hidden;
 }
 
@@ -433,6 +447,10 @@ body {
 /* Mudar as configurações do meu container */
 .container {
   width: 80% !important;
+  width: 100%;
+  max-width: 1246px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Banner */
@@ -692,32 +710,3 @@ footer .texto-bottom p {
     transform: translateY(0px);
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-decoration: none;
-  outline: none;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  list-style: none;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-body {
-  background: #e2e8f0;
-}
-
-body * {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 100%;
-  max-width: 1246px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
