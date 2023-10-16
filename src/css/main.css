@@ -352,8 +352,8 @@ header .container nav ul li .btn_active:hover {
   width: 100%;
   object-fit: cover;
   transition: transform 0.8s;
-
 }
+
 .zoom-img:hover img {
   transform: scale(1.1);
 }
@@ -365,6 +365,7 @@ header .container nav ul li .btn_active:hover {
     display: flex;
     flex-direction: column;
   }
+
   .s-projectos .container .lista-projectos .card .lista-projecto-1, .s-projectos .container .lista-projectos .card .lista-projecto-2 {
     display: flex;
     align-items: center;
@@ -378,16 +379,19 @@ header .container nav ul li .btn_active:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .s-conhecimentos .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .s-conhecimentos .container .texto-conhecimento {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .s-conhecimentos .container .texto-conhecimento h2 {
   color: #334155;
   text-align: center;
@@ -409,10 +413,12 @@ header .container nav ul li .btn_active:hover {
     align-items: center;
     gap: 15px;
   }
+
   .s-conhecimentos .skills .soft-skills, .s-conhecimentos .skills .hard-skills {
     width: 100%;
     max-width: 300px;
   }
+
   .s-conhecimentos .skills .soft-skills ul, .s-conhecimentos .skills .hard-skills ul {
     display: flex;
     justify-content: center;
@@ -420,12 +426,12 @@ header .container nav ul li .btn_active:hover {
     flex-direction: column;
     margin-bottom: 15px;
   }
+
   .s-conhecimentos .skills .soft-skills .texto-skills, .s-conhecimentos .skills .hard-skills .texto-skills {
     width: 80vh;
     max-width: 250px;
   }
 }
-
 
 @media (max-width: 900px) {
   .s-projectos .card {
@@ -475,7 +481,6 @@ body {
 }
 
 .s-card-experiencia .container {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -566,6 +571,7 @@ footer .texto-bottom p {
   color: #00b7ff;
   border-bottom: 7px solid #00b7ff;
 }
+
 @media (max-width: 600px) {
   footer .container {
     display: flex;
@@ -589,6 +595,7 @@ footer .texto-bottom p {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
+
 .btn-header:hover {
   border: 1px solid #00b7ff;
   border-bottom: 5px solid #00b7ff;
@@ -614,6 +621,7 @@ footer .texto-bottom p {
   padding: 15px;
   margin: 15px;
 }
+
 .card-empresa h2 {
   color: #0f172a;
   margin-top: 10px;
@@ -626,6 +634,7 @@ footer .texto-bottom p {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .card-empresa h3 {
   margin-top: 20px;
   text-align: center;
@@ -634,6 +643,7 @@ footer .texto-bottom p {
   color: #FFFFFF;
   margin-bottom: 10px;
 }
+
 .card-empresa p {
   text-align: center;
   font-size: 16px;
@@ -645,6 +655,7 @@ footer .texto-bottom p {
   width: 100%;
   margin: 5px;
 }
+
 .contactos h2, .social h2 {
   margin-top: 10px;
   padding: 5px;
@@ -655,6 +666,7 @@ footer .texto-bottom p {
   margin-bottom: 10px;
   color: #fff;
 }
+
 .contactos ul, .social ul {
   background: #05648a;
   box-shadow: 1px 2px 8px #e2e8f0;
