@@ -448,11 +448,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Melhorando a visualização dos certificados 
-.swiper-slide img {
-  width: 100% !important;
-}
-*/
 /* Mudar as configurações do meu container */
 .container {
   width: 80% !important;
