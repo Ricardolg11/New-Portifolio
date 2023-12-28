@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -290,7 +291,8 @@ header .container nav ul li .btn_active:hover {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.s-projectos .container .lista-projectos .card .lista-projecto-2, .s-projectos .container .lista-projectos .card .lista-projecto-1 {
+.s-projectos .container .lista-projectos .card .lista-projecto-2, .s-projectos .container 
+.lista-projectos .card .lista-projecto-1 {
   display: flex;
   gap: 10px;
 }
@@ -366,7 +368,8 @@ header .container nav ul li .btn_active:hover {
     flex-direction: column;
   }
 
-  .s-projectos .container .lista-projectos .card .lista-projecto-1, .s-projectos .container .lista-projectos .card .lista-projecto-2 {
+  .s-projectos .container .lista-projectos .card .lista-projecto-1, .s-projectos .container 
+  .lista-projectos .card .lista-projecto-2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -521,7 +524,8 @@ html {
   .s-principal .container img {
     width: 90vw;
   }
-  .s-principal .container .principal .texto-sobre-mim .texto-description #apresentation, .s-principal .container .principal .texto-sobre-mim .texto-description span {
+  .s-principal .container .principal .texto-sobre-mim .texto-description #apresentation,
+  .s-principal .container .principal .texto-sobre-mim .texto-description span {
     font-size: 14px;
   }
 }
