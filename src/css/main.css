@@ -20,7 +20,9 @@ body * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-
+section {
+  display: flex;
+}
 header {
   width: 100%;
   top: 0px;
@@ -73,6 +75,13 @@ header .container nav ul li .btn_active:hover {
   }
   header .container nav ul li {
     margin-bottom: 5px;
+  }
+
+  .logo{
+    width: 100%;
+  }
+  .menu{
+    display: none;
   }
 }
 
