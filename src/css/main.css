@@ -154,7 +154,6 @@ html {
     visibility: visible;
     
   }
-  
 
   #btn-menu{
     visibility: visible;
@@ -538,8 +537,8 @@ html {
 .container {
   width: 80% !important;
   width: 100%;
-  max-width: 1246px;
-  padding: 0 15px;
+  max-width: 1095px;
+  padding: 0 0px;
   margin: 0 auto;
 }
 
