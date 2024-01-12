@@ -22,9 +22,11 @@ body {
   background: #e2e8f0;
   overflow-x: hidden;
 }
+
 section {
   display: flex;
 }
+
 header {
   width: 100%;
   top: 0px;
@@ -152,7 +154,6 @@ html {
 
   .menu-mobile.abri{
     visibility: visible;
-    
   }
 
   #btn-menu{
