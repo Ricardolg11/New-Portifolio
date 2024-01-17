@@ -31,14 +31,13 @@ header {
   width: 100%;
   top: 0px;
   left: 0px;
-  height: 90px;
+  height: 80px;
   right: 0px;
   padding: 15px;
-  background: #FFFFFE;
-  box-shadow: 1px 3px 7px rgba(238, 238, 238, 0.1333333333);
+  background: url('../img/Music\ Desktop\ Wallpaper.png');
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.945);
   z-index: 10;
-  position: static;
-  margin-bottom: 10px;
+  position: static; 
 }
 header .container {
   display: flex;
@@ -58,33 +57,37 @@ header .container nav ul li {
   align-items: center;
 }
 header .container nav ul li .btn_active:hover {
-  border-bottom: 2px solid #00b7ff;
+  border-bottom: 2px solid #334155;
 }
 header .container .logo a {
   font-size: 1.3rem !important;
-  color: #00b7ff;
+  color: #ffffff;
 }
 
 header .container .logo a span {
-  color: #0400ff;
+  color: #ebebeb;
 }
 
 header .container nav ul li a {
-  margin: 0px 20px;
-  color: #334155;
-  font-size: 14px;
+  margin: 0px 5px;
+  color: #fff9f9;
+  font-size: 12px;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.btn-menu{
-  visibility: none;
+.menu{
+  display: none;
 }
+
+.menu-mobile.abri{
+  visibility: visible;
+}
+
 .menu-mobile{
   position: absolute;
-  top: 77px;
   left: 320px;
   visibility: hidden;
   overflow: hidden;
@@ -97,16 +100,19 @@ html {
 .linha{
   position: relative;
   height: 3px;
-  background: #0451b6;
+  background: #334155;
   width: 25px;
   display: block;
   margin: 5px auto;
   transform-origin: center;
   transition: .2s;
 }
+
+
 #btn-menu{
-  visibility: hidden;
+  background: transparent;
   margin-left: 380px;
+  visibility: visible;
 }
 
 #btn-menu.ativo{
@@ -126,6 +132,7 @@ html {
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
 }
+
 
 @media (max-width: 736px) {
   header .container {
@@ -148,18 +155,6 @@ html {
   .logo{
     width: 100%;
   }
-  .menu{
-    display: none;
-  }
-
-  .menu-mobile.abri{
-    visibility: visible;
-  }
-
-  #btn-menu{
-    visibility: visible;
-  }
-
 }
 
 .design-section {
@@ -447,7 +442,6 @@ html {
   transform: scale(1.1);
 }
 
-
 @media (max-width: 1400px) {
   .s-projectos .container .lista-projectos .card {
     padding-bottom: 50px;
@@ -545,6 +539,8 @@ html {
 
 /* Banner */
 .mk__banner {
+  height: 550px;
+  background: url('../img/Music\ Desktop\ Wallpaper.png') no-repeat;
   display: flex;
   justify-content: center !important;
   align-items: center !important;
