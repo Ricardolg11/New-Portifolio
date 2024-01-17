@@ -61,7 +61,7 @@ header .container nav ul li .btn_active:hover {
 }
 header .container .logo a {
   font-size: 1.3rem !important;
-  color: #ffffff;
+  color: #334155;
 }
 
 header .container .logo a span {
@@ -71,7 +71,7 @@ header .container .logo a span {
 header .container nav ul li a {
   margin: 0px 5px;
   color: #fff9f9;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 html {
@@ -88,7 +88,8 @@ html {
 
 .menu-mobile{
   position: absolute;
-  left: 320px;
+  left: 1000px;
+  top: 80px;
   visibility: hidden;
   overflow: hidden;
 }
@@ -100,7 +101,7 @@ html {
 .linha{
   position: relative;
   height: 3px;
-  background: #334155;
+  background: #ffffff;
   width: 25px;
   display: block;
   margin: 5px auto;
@@ -111,30 +112,46 @@ html {
 
 #btn-menu{
   background: transparent;
-  margin-left: 380px;
+  margin-left: 855px;
   visibility: visible;
 }
 
 #btn-menu.ativo{
-  border: 2px solid rgb(103, 93, 145);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 #btn-menu.ativo .linha:nth-child(1){
   transform: translateY(8px) rotate(-45deg);
-  background-color: red;
+  background-color: #334155;
 }
 
 #btn-menu.ativo .linha:nth-child(3){
   transform: translateY(-8px) rotate(45deg);
-  background-color: red;
+  background-color: #334155;
 }
 
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
 }
 
+@media (max-width: 1300px) {
 
-@media (max-width: 736px) {
+  .menu-mobile{
+    visibility: hidden;
+    left: 320px;
+  }
+
+  #btn-menu{
+    
+   
+    margin-left: 355px;
+ 
+  }
+  
+}
+
+
+@media (max-width: 1536px) {
   header .container {
     display: flex;
     flex-direction: column;
@@ -185,7 +202,7 @@ html {
 
 .timeline-content {
   padding: 20px;
-  background: #00b7ff;
+  background: #334155;
   -webkit-box-shadow: 5px 5px 10px #c5c3c3, -5px -5px 10px #c5c3c3;
           box-shadow: 5px 5px 10px #c5c3c3, -5px -5px 10px #c5c3c3;
   border-radius: 5px;
@@ -207,7 +224,7 @@ html {
   }
   .timeline-middle {
     position: relative;
-    background-image: linear-gradient(45deg, #00eeff, #80d7ff, #97e7ff);
+    background-image: linear-gradient(45deg, #334155, #6b89b3, #9ac2fc);
     width: 3px;
     height: 100%;
   }
@@ -221,7 +238,7 @@ html {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-image: linear-gradient(45deg, #00eeff, #80d7ff, #97e7ff);
+    background-image: linear-gradient(45deg, #334155, #6b89b3, #9ac2fc);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -259,7 +276,7 @@ html {
 }
 .s-principal .container .principal .texto-principal .texto h1 span {
   font-size: 25px;
-  color: #0451b6;
+  color: #ffffff;
 }
 .s-principal .container .principal .texto-principal .texto-sobre-mim {
   display: flex;
@@ -280,7 +297,7 @@ html {
   color: #334155;
 }
 .s-principal .container .principal .texto-principal .texto-sobre-mim .texto-description p hr {
-  color: #0004ff;
+  color: #9ac2fc;
 }
 .s-principal .container .principal .texto-principal .texto-sobre-mim .texto-description #apresentation {
   display: none;
@@ -303,7 +320,7 @@ html {
   display: flex;
   align-items: center;
   width: 50%;
-  background: #052658;
+  background: rgb(6, 31, 68);
   border-radius: 0px 10px 10px 0px;
   box-shadow: 1px 2px 8px #03107c;
   padding: 15px;
