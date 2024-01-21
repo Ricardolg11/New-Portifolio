@@ -109,6 +109,10 @@ html {
   transition: .2s;
 }
 
+.logo2{
+  margin-top: 30px;
+  width: 50%;
+}
 
 #btn-menu{
   background: transparent;
@@ -214,6 +218,27 @@ html {
   margin: 0px 20px 20px 20px;
 }
 
+
+@media screen and (max-width: 350px){
+  #btn-menu {
+    margin-left: 250px;
+}
+.menu-mobile {
+  left: 220px;
+}
+
+}
+
+
+@media screen and (min-width: 530px){
+  #btn-menu {
+    margin-left: 850px;
+}
+.menu-mobile {
+  left: 1000px;
+}
+
+}
 @media screen and (min-width: 768px) {
   .timeline {
     display: grid;
@@ -240,6 +265,7 @@ html {
             transform: translateX(-50%);
   }
   
+  
 }
 
 .slide {
@@ -260,7 +286,7 @@ html {
   flex-direction: column;
 }
 .s-principal .container .principal .texto-principal .texto {
-  margin-left: -640px;
+  margin-left: -240px;
   width: 51%;
   -webkit-animation: textoPrincipal 5s ease-in-out infinite;
           animation: textoPrincipal 5s ease-in-out infinite;
@@ -414,8 +440,8 @@ html {
   margin-top: 10px;
   width: 100%;
   padding: 5px;
-  background: #00b7ff;
-  box-shadow: 1px 2px 8px #042d78;
+  background: #334155;
+  box-shadow: 1px 2px 8px #1b222c;
   border-radius: 10px 10px 10px 10px;
   font-size: 18px;
   margin-bottom: 10px;
@@ -441,10 +467,10 @@ html {
   margin-left: 20px;
 }
 .s-projectos .container .lista-projectos .card .project-description a:hover {
-  border: 1px solid #00d9ff;
-  border-bottom: 5px solid #00f7ff;
+  border: 1px solid #516786;
+  border-bottom: 5px solid #334155;
   background: #FFFFFF;
-  color: #107bb9;
+  color: #415877;
 }
 
 .zoom-img img{
@@ -574,7 +600,7 @@ html {
     align-items: center;
 
 }
-
+s-principal .container .principal .texto-principal .texto
 .mk_experiencia .texto-eperiencia h2,
 .mk__conhecimentos h2,
 .mK__certificados h2 {
@@ -649,17 +675,6 @@ footer .texto-bottom p {
   border-bottom: 7px solid #00b7ff;
 }
 
-@media  screen and (max-width: 850px) {
-  .menu-mobile{
-    
-    left: 820px;
-  }
-
-  #btn-menu{
-    margin-left: 555px;
-  }
-  
-}
 @media  screen and (max-width: 600px) {
   footer .container {
     display: flex;
@@ -671,7 +686,7 @@ footer .texto-bottom p {
   width: 130px;
   padding: 15px;
   border-radius: 7px;
-  background: #00b7ff;
+  background: #334155;
   box-shadow: 1px 3px 2px #e2e8f0;
   color: #FFFFFF;
   font-size: 14px;
@@ -685,10 +700,10 @@ footer .texto-bottom p {
 }
 
 .btn-header:hover {
-  border: 1px solid #00b7ff;
-  border-bottom: 5px solid #00b7ff;
+  border: 1px solid #334155;
+  border-bottom: 5px solid #334155;
   background: #FFFFFF;
-  color: #00b7ff;
+  color: #334155;
 }
 
 .btn-skills, .btn-soft {
@@ -716,7 +731,7 @@ footer .texto-bottom p {
   width: 100%;
   padding: 5px;
   background: #FFFFFF;
-  box-shadow: 1px 2px 8px #00b7ff;
+  box-shadow: 1px 2px 8px #334155;
   border-radius: 0px 10px 10px 0px;
   font-size: 16px;
   text-align: center;
