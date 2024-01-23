@@ -35,7 +35,6 @@ header {
   right: 0px;
   padding: 15px;
   background: url('../img/Music\ Desktop\ Wallpaper.png');
-  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.945);
   z-index: 10;
   position: static; 
 }
@@ -136,8 +135,6 @@ html {
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
 }
-
-
 
 @media (max-width: 505px) {
 
