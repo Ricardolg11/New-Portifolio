@@ -17,9 +17,9 @@
 }
 
 body {
+  background: url('../img/Music\ Desktop\ Wallpaper.png');
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  background: #e2e8f0;
   overflow-x: hidden;
 }
 
@@ -267,6 +267,18 @@ html {
 @media (min-width: 750px) {
 
   .menu-mobile{
+    left: 558px;
+  }
+
+  #btn-menu{
+    margin-left: 555px;
+  }
+  
+}
+
+@media (min-width: 850px) {
+
+  .menu-mobile{
     left: 1000px;
   }
 
@@ -303,7 +315,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e2e8f0;
+  background-color: transparent;
   min-height: 100vh;
   padding: 100px 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -327,8 +339,8 @@ html {
 .timeline-content {
   padding: 20px;
   background: #334155;
-  -webkit-box-shadow: 5px 5px 10px #c5c3c3, -5px -5px 10px #c5c3c3;
-          box-shadow: 5px 5px 10px #c5c3c3, -5px -5px 10px #c5c3c3;
+  -webkit-box-shadow: 5px 5px 10px #00000083, -5px -5px 10px #00000083;
+          box-shadow: 5px 5px 10px #00000083, -5px -5px 10px #00000083;
   border-radius: 5px;
   color: white;
   transition: 0.4s ease;
@@ -488,8 +500,6 @@ html {
 .s-projectos .container .texto-projectos {
   width: 100%;
   height: 50px;
-  box-shadow: 1px 2px 8px #e2e8f0;
-  border-radius: 10px 10px 10px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -529,12 +539,8 @@ html {
   align-items: center;
   width: 100%;
   max-width: 400px;
-  background: #fffffe;
-  box-shadow: 1px 2px 8px #e2e8f0;
-  border-radius: 10px 10px 10px 10px;
   padding: 15px;
   color: #fff;
-  border-right: 10px solid #fff;
   margin-bottom: 20px;
 } 
 
@@ -585,7 +591,7 @@ html {
   transform: scale(1.1);
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .s-projectos .container .lista-projectos .card {
     padding-bottom: 50px;
     display: flex;
@@ -738,11 +744,11 @@ s-principal .container .principal .texto-principal .texto
 
 footer {
   padding: 30px 0px 0px 0px;
-  background: #FFFFFE;
+  background: transparent;
   position: relative;
   bottom: 0;
   width: 100%;
-  border-top: 7px solid #00b7ff;
+  border-top: 7px solid #334155;
 }
 
 footer .container {
@@ -763,18 +769,16 @@ footer .texto-bottom {
   margin-top: 20px;
   width: 100%;
   max-width: 100%;
-  background: #FFFFFE;
   justify-content: center;
   align-items: center;
-  box-shadow: 7px 8px 32px #e2e8f0;
   padding: 20px;
 }
 
 footer .texto-bottom p {
   padding: 15px;
   text-align: center;
-  color: #00b7ff;
-  border-bottom: 7px solid #00b7ff;
+  color: #334155;
+  border-bottom: 7px solid #334155;
 }
 
 @media  screen and (max-width: 600px) {
@@ -817,45 +821,6 @@ footer .texto-bottom p {
   font-weight: 700;
 }
 
-.card-empresa {
-  width: 100%;
-  max-width: 350px;
-  background: #00b7ff;
-  box-shadow: 1px 2px 8px #e2e8f0;
-  border-radius: 10px 10px 10px 10px;
-  padding: 15px;
-  margin: 15px;
-}
-
-.card-empresa h2 {
-  color: #0f172a;
-  margin-top: 10px;
-  width: 100%;
-  padding: 5px;
-  background: #FFFFFF;
-  box-shadow: 1px 2px 8px #334155;
-  border-radius: 0px 10px 10px 0px;
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.card-empresa h3 {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: #FFFFFF;
-  margin-bottom: 10px;
-}
-
-.card-empresa p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: #FFFFFF;
-}
-
 .contactos, .social {
   width: 100%;
   margin: 5px;
@@ -864,8 +829,8 @@ footer .texto-bottom p {
 .contactos h2, .social h2 {
   margin-top: 10px;
   padding: 5px;
-  background: #00b7ff;
-  box-shadow: 1px 2px 10px #e2e8f0;
+  background: #334155;
+  box-shadow: 1px 2px 10px #334155;
   border-radius: 0px 10px 10px 0px;
   font-size: 18px;
   margin-bottom: 10px;
@@ -873,8 +838,8 @@ footer .texto-bottom p {
 }
 
 .contactos ul, .social ul {
-  background: #05648a;
-  box-shadow: 1px 2px 8px #e2e8f0;
+  background: #334155;
+  box-shadow: 1px 2px 8px #334155;
   border-radius: 0px 10px 10px 0px;
   padding: 15px;
 }
