@@ -130,80 +130,141 @@ html {
   width: 0;
 }
 
-@media (max-width: 505px) {
+@media (max-width: 420px) {
 
   .menu-mobile{
-    position: absolute;
-    visibility: hidden;
-    left: 227px;
+    left: 200px;
   }
 
   #btn-menu{
+    transition: 0.5s;
     margin-left: 223px;
   }
   
 }
 
-@media (min-width: 505px) {
+@media (min-width: 420px) {
 
   .menu-mobile{
-    left: 330px;
+    left: 232px;
   }
 
   #btn-menu{
-    margin-left: 350px;
+    transition: 0.5s;
+    margin-left: 250px;
   }
   
 }
 
-@media (min-width: 550px) {
+@media (min-width: 424px) {
 
   .menu-mobile{
-    left: 410px;
+    left: 278px;
   }
 
   #btn-menu{
-    margin-left: 400px;
+    margin-left: 284px;
   }
   
 }
 
-@media (min-width: 665px) {
+@media (min-width: 487px) {
 
   .menu-mobile{
-    left: 500px;
+    left: 323px;
   }
 
   #btn-menu{
-    margin-left: 500px;
+    margin-left: 340px;
   }
   
 }
-@media (min-width: 730px) {
+@media (min-width: 529px) {
 
   .menu-mobile{
-    left: 550px;
+    left: 362px;
   }
 
   #btn-menu{
-    margin-left: 560px;
-  }
-  
-}
-
-@media (min-width: 800px) {
-
-  .menu-mobile{
-    left: 650px;
-  }
-
-  #btn-menu{
-    margin-left: 660px;
+    margin-left: 364px;
   }
   
 }
 
-@media (min-width: 900px) {
+@media (min-width: 575px) {
+
+  .menu-mobile{
+    left: 389px;
+  }
+
+  #btn-menu{
+    margin-left: 375px;
+  }
+  
+}
+
+@media (min-width: 610px) {
+
+  .menu-mobile{
+    left: 419px;
+  }
+
+  #btn-menu{
+    margin-left: 402px;
+  }
+  
+}
+
+@media (min-width: 620px) {
+
+  .menu-mobile{
+    left: 430px;
+  }
+
+  #btn-menu{
+    margin-left: 404px;
+  }
+  
+}
+
+
+@media (min-width: 620px) {
+
+  .menu-mobile{
+    left: 430px;
+  }
+
+  #btn-menu{
+    margin-left: 404px;
+  }
+  
+}
+
+@media (min-width: 687px) {
+
+  .menu-mobile{
+    left: 504px;
+  }
+
+  #btn-menu{
+    margin-left: 501px;
+  }
+  
+}
+
+@media (min-width: 717px) {
+
+  .menu-mobile{
+    left: 535px;
+  }
+
+  #btn-menu{
+    margin-left: 520px;
+  }
+  
+}
+
+@media (min-width: 750px) {
 
   .menu-mobile{
     left: 1000px;
@@ -214,7 +275,6 @@ html {
   }
   
 }
-
 @media (max-width: 1536px) {
   header .container {
     display: flex;
