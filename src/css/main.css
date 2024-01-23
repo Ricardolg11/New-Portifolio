@@ -62,11 +62,9 @@ header .container .logo a {
   font-size: 1.3rem !important;
   color: #334155;
 }
-
 header .container .logo a span {
   color: #ebebeb;
 }
-
 header .container nav ul li a {
   margin: 0px 5px;
   color: #fff9f9;
@@ -117,21 +115,17 @@ html {
   visibility: visible;
   cursor: pointer;
 }
-
 #btn-menu.ativo{
   border: 2px solid rgb(255, 255, 255);
 }
-
 #btn-menu.ativo .linha:nth-child(1){
   transform: translateY(8px) rotate(-45deg);
   background-color: #334155;
 }
-
 #btn-menu.ativo .linha:nth-child(3){
   transform: translateY(-8px) rotate(45deg);
   background-color: #334155;
 }
-
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
 }
@@ -286,7 +280,6 @@ html {
 .timeline-component {
   margin: 0px 20px 20px 20px;
 }
-
 
 @media screen and (min-width: 768px) {
   .timeline {
