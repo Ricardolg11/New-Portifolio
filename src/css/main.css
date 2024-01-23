@@ -88,7 +88,6 @@ html {
 
 .menu-mobile{
   position: absolute;
-  left: 1000px;
   top: 80px;
   visibility: hidden;
   overflow: hidden;
@@ -116,7 +115,6 @@ html {
 
 #btn-menu{
   background: transparent;
-  margin-left: 855px;
   visibility: visible;
   cursor: pointer;
 }
@@ -139,12 +137,14 @@ html {
   width: 0;
 }
 
-@media (max-width: 500px) {
+
+
+@media (max-width: 505px) {
 
   .menu-mobile{
     position: absolute;
     visibility: hidden;
-    left: 250px;
+    left: 227px;
   }
 
   #btn-menu{
@@ -156,19 +156,31 @@ html {
 @media (min-width: 505px) {
 
   .menu-mobile{
-    left: 410px;
+    left: 330px;
   }
 
   #btn-menu{
-    margin-left: 450px;
+    margin-left: 350px;
   }
   
 }
 
-@media (min-width: 650px) {
+@media (min-width: 550px) {
 
   .menu-mobile{
-    left: 510px;
+    left: 410px;
+  }
+
+  #btn-menu{
+    margin-left: 400px;
+  }
+  
+}
+
+@media (min-width: 665px) {
+
+  .menu-mobile{
+    left: 500px;
   }
 
   #btn-menu{
@@ -176,20 +188,41 @@ html {
   }
   
 }
-
-
-@media (min-width: 750px) {
+@media (min-width: 730px) {
 
   .menu-mobile{
-    left: 610px;
+    left: 550px;
   }
 
   #btn-menu{
-    margin-left: 600px;
+    margin-left: 560px;
   }
   
 }
 
+@media (min-width: 800px) {
+
+  .menu-mobile{
+    left: 650px;
+  }
+
+  #btn-menu{
+    margin-left: 660px;
+  }
+  
+}
+
+@media (min-width: 900px) {
+
+  .menu-mobile{
+    left: 1000px;
+  }
+
+  #btn-menu{
+    margin-left: 850px;
+  }
+  
+}
 
 @media (max-width: 1536px) {
   header .container {
@@ -258,26 +291,6 @@ html {
 }
 
 
-@media screen and (max-width: 350px){
-  #btn-menu {
-    margin-left: 250px;
-}
-.menu-mobile {
-  left: 220px;
-}
-
-}
-
-
-@media screen and (min-width: 830px){
-  #btn-menu {
-    margin-left: 850px;
-}
-.menu-mobile {
-  left: 1000px;
-}
-
-}
 @media screen and (min-width: 768px) {
   .timeline {
     display: grid;
@@ -303,7 +316,6 @@ html {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
-  
   
 }
 
@@ -347,7 +359,8 @@ html {
   flex-direction: column;
 }
 .s-principal .container .principal .texto-principal .texto-sobre-mim .texto-description {
-  width: 100%;
+  margin-top: 41px;
+  width: 65%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
