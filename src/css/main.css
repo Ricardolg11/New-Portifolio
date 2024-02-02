@@ -130,23 +130,12 @@ html {
   width: 0;
 }
 
-@media (max-width: 420px) {
 
-  .menu-mobile{
-    left: 200px;
-  }
-
-  #btn-menu{
-    transition: 0.5s;
-    margin-left: 223px;
-  }
-  
-}
 
 @media (min-width: 420px) {
 
   .menu-mobile{
-    left: 232px;
+    left: 222px;
   }
 
   #btn-menu{
@@ -156,22 +145,10 @@ html {
   
 }
 
-@media (min-width: 424px) {
-
-  .menu-mobile{
-    left: 278px;
-  }
-
-  #btn-menu{
-    margin-left: 284px;
-  }
-  
-}
-
 @media (min-width: 487px) {
 
   .menu-mobile{
-    left: 323px;
+    left: 250px;
   }
 
   #btn-menu{
@@ -182,7 +159,7 @@ html {
 @media (min-width: 529px) {
 
   .menu-mobile{
-    left: 362px;
+    left: 282px;
   }
 
   #btn-menu{
@@ -194,7 +171,7 @@ html {
 @media (min-width: 575px) {
 
   .menu-mobile{
-    left: 389px;
+    left: 300px;
   }
 
   #btn-menu{
@@ -203,35 +180,11 @@ html {
   
 }
 
-@media (min-width: 610px) {
-
-  .menu-mobile{
-    left: 419px;
-  }
-
-  #btn-menu{
-    margin-left: 402px;
-  }
-  
-}
 
 @media (min-width: 620px) {
 
   .menu-mobile{
-    left: 430px;
-  }
-
-  #btn-menu{
-    margin-left: 404px;
-  }
-  
-}
-
-
-@media (min-width: 620px) {
-
-  .menu-mobile{
-    left: 430px;
+    left: 340px;
   }
 
   #btn-menu{
@@ -243,7 +196,7 @@ html {
 @media (min-width: 687px) {
 
   .menu-mobile{
-    left: 504px;
+    left: 404px;
   }
 
   #btn-menu{
@@ -255,7 +208,7 @@ html {
 @media (min-width: 717px) {
 
   .menu-mobile{
-    left: 535px;
+    left: 435px;
   }
 
   #btn-menu{
@@ -267,7 +220,7 @@ html {
 @media (min-width: 750px) {
 
   .menu-mobile{
-    left: 558px;
+    left: 465px;
   }
 
   #btn-menu{
@@ -279,7 +232,7 @@ html {
 @media (min-width: 850px) {
 
   .menu-mobile{
-    left: 1000px;
+    left: 860px;
   }
 
   #btn-menu{
