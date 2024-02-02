@@ -343,7 +343,8 @@ html {
 }
 .s-principal .container .principal {
   margin-top: -150px;
-  width: 100%;
+  width: 66%;
+  margin-left: -100px;
 }
 .s-principal .container .principal .texto-principal {
   display: flex;
@@ -823,7 +824,7 @@ footer .texto-bottom p {
   animation-timeline: view();
 }
 
-.container{
+.design-section{
   animation: appero 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 35%;
