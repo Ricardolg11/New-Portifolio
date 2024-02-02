@@ -60,10 +60,10 @@ header .container nav ul li .btn_active:hover {
 }
 header .container .logo a {
   font-size: 1.3rem !important;
-  color: #334155;
+  color: #ffffff;
 }
 header .container .logo a span {
-  color: #ebebeb;
+  color: #334155;
 }
 header .container nav ul li a {
   margin: 0px 5px;
@@ -129,18 +129,14 @@ html {
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
 }
-
-
-
-@media (min-width: 420px) {
+@media (max-width: 487px) {
 
   .menu-mobile{
-    left: 222px;
+    left: 310px;
   }
 
   #btn-menu{
-    transition: 0.5s;
-    margin-left: 250px;
+    margin-left: 340px;
   }
   
 }
@@ -148,7 +144,7 @@ html {
 @media (min-width: 487px) {
 
   .menu-mobile{
-    left: 250px;
+    left: 310px;
   }
 
   #btn-menu{
@@ -159,7 +155,7 @@ html {
 @media (min-width: 529px) {
 
   .menu-mobile{
-    left: 282px;
+    left: 355px;
   }
 
   #btn-menu{
@@ -171,7 +167,7 @@ html {
 @media (min-width: 575px) {
 
   .menu-mobile{
-    left: 300px;
+    left: 380px;
   }
 
   #btn-menu{
@@ -180,11 +176,10 @@ html {
   
 }
 
-
 @media (min-width: 620px) {
 
   .menu-mobile{
-    left: 340px;
+    left: 400px;
   }
 
   #btn-menu{
@@ -193,10 +188,10 @@ html {
   
 }
 
-@media (min-width: 687px) {
+@media (min-width: 655px) {
 
   .menu-mobile{
-    left: 404px;
+    left: 470px;
   }
 
   #btn-menu{
@@ -205,10 +200,10 @@ html {
   
 }
 
-@media (min-width: 717px) {
+@media (min-width: 680px) {
 
   .menu-mobile{
-    left: 435px;
+    left: 500px;
   }
 
   #btn-menu{
@@ -217,10 +212,10 @@ html {
   
 }
 
-@media (min-width: 750px) {
+@media (min-width: 720px) {
 
   .menu-mobile{
-    left: 465px;
+    left: 535px;
   }
 
   #btn-menu{
@@ -229,7 +224,7 @@ html {
   
 }
 
-@media (min-width: 850px) {
+@media (min-width: 750px) {
 
   .menu-mobile{
     left: 860px;
@@ -239,6 +234,12 @@ html {
     margin-left: 850px;
   }
   
+}
+
+@media (min-width: 1050px){
+.menu-mobile {
+    left: 1000px;
+}
 }
 @media (max-width: 1536px) {
   header .container {
@@ -343,7 +344,7 @@ html {
 }
 .s-principal .container .principal {
   margin-top: -150px;
-  width: 66%;
+  width: 65%;
   margin-left: -100px;
 }
 .s-principal .container .principal .texto-principal {
@@ -386,7 +387,7 @@ html {
   margin-top: 15px;
   text-align: justify;
   font-size: 16px;
-  color: #334155;
+  color: #ffffff;
 }
 .s-principal .container .principal .texto-principal .texto-sobre-mim .texto-description p hr {
   color: #9ac2fc;
@@ -460,7 +461,7 @@ html {
   padding: 20px;
 }
 .s-projectos .container .texto-projectos h2 {
-  color: #334155;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -580,7 +581,7 @@ html {
 }
 
 .s-conhecimentos .container .texto-conhecimento h2 {
-  color: #334155;
+  color: #ffffff;
   text-align: center;
   font-size: 20px;
 }
