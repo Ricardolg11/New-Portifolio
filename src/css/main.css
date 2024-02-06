@@ -807,11 +807,11 @@ footer .texto-bottom p {
 
 @media (max-width: 500px)  {
   *{
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .btn-header{
-    font-size: 11px;
+    font-size: 8px;
   }
   
 }
@@ -820,14 +820,25 @@ footer .texto-bottom p {
   animation: esque 0.5s;
 }
 
-
 .texto-conhecimento{
   animation: esque 1ms ease-in-out;
   animation-timeline: view();
 }
 
-.design-section{
+.design-section,.contactos{
   animation: esque 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 35%;
+}
+
+#projetos{
+  animation: esque 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 35%;
+}
+
+.social{
+  animation: direc 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 35%;
 }
