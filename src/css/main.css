@@ -36,7 +36,7 @@ header {
   padding: 15px;
   z-index: 10;
   position: static; 
-  animation: apper 0.5s;
+  animation: direc 0.5s;
 }
 header .container {
   display: flex;
@@ -817,20 +817,22 @@ footer .texto-bottom p {
 }
 
 .principal{
-  animation: apper 0.5s;
+  animation: esque 0.5s;
 }
 
+
 .texto-conhecimento{
-  animation: appero 1ms ease-in-out;
+  animation: esque 1ms ease-in-out;
   animation-timeline: view();
 }
 
 .design-section{
-  animation: appero 1ms ease-in-out;
+  animation: esque 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 35%;
 }
-@keyframes apper{
+
+@keyframes esque{
   from{
     opacity: 0;
     translate: -100vw 0;
@@ -842,10 +844,10 @@ footer .texto-bottom p {
   }
 }
 
-@keyframes appero{
+@keyframes direc{
   from{
     opacity: 0;
-    translate: -100vw 0;
+    translate: 100vw 0;
   }
 
   to{
