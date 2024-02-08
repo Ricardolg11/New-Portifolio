@@ -828,7 +828,7 @@ footer .texto-bottom p {
 .design-section,.contactos{
   animation: esque 1ms ease-in-out;
   animation-timeline: view();
-  animation-range: cover 0% cover 35%;
+  animation-range: cover 0% cover 25%;
 }
 
 #projetos{
@@ -840,7 +840,7 @@ footer .texto-bottom p {
 .social{
   animation: direc 1ms ease-in-out;
   animation-timeline: view();
-  animation-range: cover 0% cover 35%;
+  animation-range: cover 0% cover 25%;
 }
 
 @keyframes esque{
