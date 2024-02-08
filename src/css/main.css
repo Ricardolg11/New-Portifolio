@@ -130,19 +130,32 @@ html {
   width: 0;
 }
 
-@media screen and (max-width: 450px) {
+
+@media (max-width: 460px) {
 
   .menu-mobile{
     left: 150px;
   }
 
   #btn-menu{
-    margin-left: 80px;
+    margin-left:130px;
   }
   
 }
 
-@media (min-width: 450px) {
+@media (min-width: 460px) {
+
+  .menu-mobile{
+    left: 250px;
+  }
+
+  #btn-menu{
+    margin-left:200px;
+  }
+  
+}
+
+@media (min-width: 500px) {
 
   .menu-mobile{
     left: 310px;
