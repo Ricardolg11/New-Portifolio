@@ -129,19 +129,20 @@ html {
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
 }
-@media (max-width: 487px) {
+
+@media screen and (max-width: 450px) {
 
   .menu-mobile{
-    left: 310px;
+    left: 150px;
   }
 
   #btn-menu{
-    margin-left: 340px;
+    margin-left: 80px;
   }
   
 }
 
-@media (min-width: 487px) {
+@media (min-width: 450px) {
 
   .menu-mobile{
     left: 310px;
@@ -544,6 +545,7 @@ html {
 
 .zoom-img:hover img {
   transform: scale(1.1);
+
 }
 
 @media (max-width: 1200px) {
