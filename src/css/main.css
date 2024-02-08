@@ -131,7 +131,7 @@ html {
 }
 
 
-@media (max-width: 460px) {
+@media (max-width: 400px) {
 
   .menu-mobile{
     left: 150px;
@@ -143,19 +143,19 @@ html {
   
 }
 
-@media (min-width: 460px) {
+@media (min-width: 400px) {
 
   .menu-mobile{
     left: 250px;
   }
 
   #btn-menu{
-    margin-left:200px;
+    margin-left:270px;
   }
   
 }
 
-@media (min-width: 500px) {
+@media (min-width: 450px) {
 
   .menu-mobile{
     left: 310px;
