@@ -847,7 +847,7 @@ footer .texto-bottom p {
 }
 
 #projetos{
-  animation: esque 1ms ease-in-out;
+  animation: direc 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 35%;
 }
