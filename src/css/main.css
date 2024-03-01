@@ -847,7 +847,7 @@ footer .texto-bottom p {
 }
 
 #projetos{
-  animation: direc 1ms ease-in-out;
+  animation: invis 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 35%;
 }
@@ -881,6 +881,17 @@ footer .texto-bottom p {
     translate: 0 0;
   }
 }
+
+@keyframes invis{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
 
 @-webkit-keyframes textoPrincipal {
   0% {
