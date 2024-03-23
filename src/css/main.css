@@ -139,6 +139,7 @@ html {
   }
 
   #btn-menu{
+    
     transition: 1s;
     margin-left:130px;
   }
@@ -153,7 +154,6 @@ html {
   }
 
   #btn-menu{
-    transition: 1s;
     margin-left:270px;
   }
   
@@ -245,11 +245,11 @@ html {
 @media (min-width: 750px) {
 
   .menu-mobile{
-    left: 590px;
+    left: 635px;
   }
 
   #btn-menu{
-    margin-left: 500px;
+    margin-left: 850px;
   }
   
 }
