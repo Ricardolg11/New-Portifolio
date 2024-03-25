@@ -364,7 +364,8 @@ html {
 .s-principal .container .principal {
   margin-top: -150px;
   width: 65%;
-  margin-left: -100px;
+  margin-left: 0px;
+
 }
 .s-principal .container .principal .texto-principal {
   display: flex;
