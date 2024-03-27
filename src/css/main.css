@@ -583,7 +583,7 @@ html {
 
 .Conhecimentos{
   margin-left: -110px;
-  gap: 95px;
+  gap: 100px;
   display: flex;
   height: 100px;
 }
@@ -616,7 +616,9 @@ html {
 @media (max-width: 800px) {
 
   .Conhecimentos{
-  display: contents;
+    margin-left: -25px;
+    margin-top: -405px;
+    display: grid;
   }
   }
 
