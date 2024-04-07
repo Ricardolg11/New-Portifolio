@@ -9,7 +9,6 @@ btnBemVindo.addEventListener('click',(event)=>{
 const menudiv=document.getElementById('menu-mobile');
 const animar = document.getElementById('btn-menu');
 
-
 menudiv.addEventListener('click', animarbuttton)
 
 function animarbuttton(){

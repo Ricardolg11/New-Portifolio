@@ -834,6 +834,7 @@ footer .texto-bottom p {
   border-radius: 0px 10px 10px 0px;
   padding: 15px;
 }
+
 .contactos ul li h3, .social ul li h3 {
   color: #fff;
   font-size: 16px;
@@ -907,7 +908,6 @@ footer .texto-bottom p {
     opacity: 1;
   }
 }
-
 
 @-webkit-keyframes textoPrincipal {
   0% {
