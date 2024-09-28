@@ -1,3 +1,7 @@
 # Portfólio #
 
-Olá esse projeto está em andamento constantemente.
+Olá esse projeto está em andamento.
+
+# PROJETOS #
+
+Meus projetos estão disponiveis.
